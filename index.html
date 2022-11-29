@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="fechar menu">
+    <label class="close-menu-label" for="close-menu" title="fechar menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false"><a href="#home">Logo</a></h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false">
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#grid-one">Top 3</a></li>
+                    <li><a href="#gallery">Galeria</a></li>
+                    <li><a href="#pricing">Tabela</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Apenas um h2 teste por aqui</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ratione quia voluptates molestiae
+                    expedita
+                    voluptas officiis soluta similique ad dolorum aut, nulla, ullam doloremque temporibus! Culpa nostrum
+                    beatae
+                    eligendi aspernatur.</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/javascript.svg" alt="imagem sobre javascript, html e css">
+            </div>
+        </div>
+    </section>
+
+    <section id="intro" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>Introdução</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officia animi tempore accusamus
+                corrupti recusandae nulla nihil sequi architecto facere alias voluptatem porro, debitis laboriosam,
+                repudiandae quis quia? Asperiores, distinctio.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officia animi tempore accusamus
+                corrupti recusandae nulla nihil sequi architecto facere alias voluptatem porro, debitis laboriosam,
+                repudiandae quis quia? Asperiores, distinctio.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officia animi tempore accusamus
+                corrupti recusandae nulla nihil sequi architecto facere alias voluptatem porro, debitis laboriosam,
+                repudiandae quis quia? Asperiores, distinctio.</p>
+        </div>
+    </section>
+
+    <section id="grid-one" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Top 3</h2>
+            <p class="grid-description">Imagine uma descrição.</p>
+            <div class="grid">
+                <article>
+                    <h3>Primeiro</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo ex repellendus magni distinctio
+                        quasi?
+                        Corrupti quis sunt distinctio dolorem, placeat nam quod necessitatibus explicabo, neque quae
+                        saepe
+                        illo
+                        ad culpa!</p>
+                </article>
+                <article>
+                    <h3>Segundo</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo ex repellendus magni distinctio
+                        quasi?
+                        Corrupti quis sunt distinctio dolorem, placeat nam quod necessitatibus explicabo, neque quae
+                        saepe
+                        illo
+                        ad culpa!</p>
+                </article>
+                <article>
+                    <h3>Terceiro</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo ex repellendus magni distinctio
+                        quasi?
+                        Corrupti quis sunt distinctio dolorem, placeat nam quod necessitatibus explicabo, neque quae
+                        saepe
+                        illo
+                        ad culpa!</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="grid-one white-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Galeria</h2>
+            <p class="grid-description">Imagine uma descrição.</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="https://images.unsplash.com/photo-1645075960701-573cbc669de6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cmFuZG9tLi4ufGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                        alt="mar">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://images.unsplash.com/photo-1642325203922-a7dbd7539414?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cmFuZG9tLi4ufGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                        alt="paisagem">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://images.unsplash.com/photo-1621268996424-3e3b03a2b5e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHJhbmRvbS4uLnxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60"
+                        alt="coqueiro">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbmRvbS4uLnxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60"
+                        alt="espaco">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://images.unsplash.com/photo-1454789548928-9efd52dc4031?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHJhbmRvbS4uLnxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60"
+                        alt="astronauta">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://images.unsplash.com/photo-1505480449763-8f5c78af9caa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmFuZG9tLi4ufGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                        alt="abacaxi">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="pricing" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>Tabela</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officia animi tempore accusamus
+                corrupti recusandae nulla nihil sequi architecto facere alias voluptatem porro, debitis laboriosam,
+                repudiandae quis quia? Asperiores, distinctio.</p>
+            <div class="responsive-table">
+                <table>
+                    <caption>Tabela de preços</caption>
+                    <thead>
+                        <tr>
+                            <th>Titulo 1</th>
+                            <th>Titulo 2</th>
+                            <th>Titulo 3</th>
+                            <th>Titulo 4</th>
+                            <th>Titulo 5</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Testando</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Apenas um h2 teste por aqui</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ratione quia voluptates molestiae
+                    expedita
+                    voluptas officiis soluta similique ad dolorum aut, nulla, ullam doloremque temporibus! Culpa nostrum
+                    beatae
+                    eligendi aspernatur.</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/javascript.svg" alt="imagem sobre javascript, html e css">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Entre em contato</legend>
+                    <div class="form-group">
+                        <label for="first-name">Nome</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Seu nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Sobrenome</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Seu sobrenome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Seu email">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Mensagem</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit">Enviar mensagem</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="footer white-bg">
+        <p><a rel="noffolow" target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Apenas um link no
+                rodapé</a></p>
+    </footer>
+
+    <a class="back-to-top" href="#home">➤</a>
+</body>
+
+</html>
